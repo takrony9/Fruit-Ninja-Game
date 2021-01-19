@@ -1,0 +1,31 @@
+.root{
+    -fx-background-image: url("back1.png");
+    -fx-background-size: 800 550;
+    -fx-background-repeat: none;
+}
+.label{
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color:transparent;
+    -fx-border-color: #25ff64;
+    -fx-border-radius:50px;
+    -fx-font-size:10px;
+   -fx-text-fill: white;
+
+      }
+.button:hover{
+    -fx-background-size:100,200;
+    -fx-border-color: black;
+        -fx-text-fill: white;
+
+
+}
+.score{
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+
+}
